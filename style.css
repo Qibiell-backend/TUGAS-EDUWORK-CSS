@@ -1,0 +1,171 @@
+body {
+    background-color: #fafafa;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: 0px auto;
+    padding-top: 20px;
+    display: flex;
+}
+
+.gambar {
+    width: 53%;
+}
+
+.img-thumb {
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.gambar-overlay {
+    position: absolute;
+    top: 50px;
+    left: 340px;
+    width: 250px;
+    height: 545px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    animation: slideImages 9s infinite;
+}
+
+
+@keyframes slideImages {
+    0%, 25% {
+        background-image: url('img/gambar-1.png'); /* Gambar pertama */
+    }
+    26%, 50% {
+        background-image: url('img/gambar-2.png'); /* Gambar kedua */
+    }
+    51%, 75% {
+        background-image: url('img/gambar-3.png'); /* Gambar ketiga */
+    }
+    76%, 100% {
+        background-image: url('img/gambar-4.png'); /* Gambar ketiga */
+    }
+}
+
+
+.card-wrapper {
+    width: 50%;
+}
+
+.card {
+    width: 350px;
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: 1px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 17px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 180px;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.input {
+    width: 250px;
+    height: 25px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 8px;
+}
+
+.btn {
+    background-color: #0095f6;
+    border: 0pc solid transparent;
+    margin-top: 22px;
+    width: 260px;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.divider {
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 45px;
+    padding-top: 10px;
+    color: #8e8e8e;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider::before {
+    margin-right: 12px;
+}
+
+.divider::after {
+    margin-left: 12px;
+}
+
+.with-fb {
+    color: #01017a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-forgot {
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.card-2 {
+    width: 350px;
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: 1px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.regis {
+    text-decoration: none;
+}
+
+.card-3 {
+    border: none;
+    width: 350px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.download-app {
+    text-align: center;
+}
+
+.app-links img {
+    width: 120px;
+    margin: 0px 5px;
+}
+
+.google {
+    height: 43px;
+}
+
