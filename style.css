@@ -12,18 +12,18 @@ body {
 
 .gambar {
     width: 53%;
+    position: relative;
 }
 
 .img-thumb {
-    position: relative;
     width: 100%;
     background-size: cover;
 }
 
 .gambar-overlay {
     position: absolute;
-    top: 50px;
-    left: 340px;
+    top: 26px;
+    left: 155px;
     width: 250px;
     height: 545px;
     border-radius: 30px;
@@ -168,4 +168,3 @@ body {
 .google {
     height: 43px;
 }
-
